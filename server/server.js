@@ -1,11 +1,11 @@
-const express = require("express");
+
 import dotenv from 'dotenv';
 import config from './config';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import userRoute from './routes/user';
 import productRoute from './routes/product';
-
+const express = require("express");
 dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;

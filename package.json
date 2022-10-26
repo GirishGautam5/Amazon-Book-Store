@@ -1,9 +1,9 @@
 {
   "name": "bookmfrp",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "cd client && npm install && npm run build",
     "start": "nodemon --watch server --exec babel-node server/server.js"
