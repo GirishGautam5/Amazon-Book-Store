@@ -3,8 +3,8 @@ import dotenv from 'dotenv';
 import config from './config.js';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
-import userRoute from './routes/user';
-import productRoute from './routes/product';
+import userRoute from './routes/user.js';
+import productRoute from './routes/product.js';
 const express = require("express");
 dotenv.config();
 
