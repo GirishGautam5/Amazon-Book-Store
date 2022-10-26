@@ -1,6 +1,6 @@
 
 import dotenv from 'dotenv';
-import config from './config';
+import config from './config.js';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import userRoute from './routes/user';
