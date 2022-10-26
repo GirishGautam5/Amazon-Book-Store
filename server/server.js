@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require("express");
 import dotenv from 'dotenv';
 import config from './config';
 import mongoose from 'mongoose';
