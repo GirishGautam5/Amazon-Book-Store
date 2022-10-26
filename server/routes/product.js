@@ -1,5 +1,5 @@
 import express from 'express';
-import Product from '../models/product';
+import Product from '../models/product.js';
 import { isAuth, isAdmin } from '../util';
 
 const router = express.Router();
