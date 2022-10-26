@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "cd client && npm install && npm run build",
     "start": "nodemon --watch server --exec babel-node server/server.js"
   },
   "author": "",
@@ -22,5 +23,6 @@
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0"
-  }
+  },
+  "engines": {"node":"12.4.0", "npm": "6.9.0"}
 }
